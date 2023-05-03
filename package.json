@@ -1,0 +1,21 @@
+{
+  "name": "cs-community-server",
+  "description": "csgo (Counter-Strike: Global Offensive) and css (Counter-Strike: Source) community server",
+  "version": "0.0.1",
+  "main": "lib/index.cjs",
+  "module": "lib/index.mjs",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "author": "9cats <123337671@qq.com>",
+  "license": "MIT",
+  "repository": "https://github.com/9cats/cs-community-server",
+  "keywords": [
+    "csgo",
+    "css"
+  ],
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
