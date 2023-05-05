@@ -30,5 +30,6 @@ jobs:
         cp package.json README.md ci/
         npm install --prefix ci
         node ci/build.js
+        git push --follow-tags origin master
       env:
         NODE_AUTH_TOKEN: "${{ secrets.NPM_TOKEN }}"
