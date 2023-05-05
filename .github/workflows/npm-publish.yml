@@ -25,6 +25,7 @@ jobs:
       run: yarn
     - name: Build and Publish NPM Module
       run: |
+        echo "//registry.npmjs.org/:_authToken=\${NODE_AUTH_TOKEN}" >> ~/.npmrc
         mkdir -p ci
         cp package.json README.md ci/
         npm install --prefix ci
