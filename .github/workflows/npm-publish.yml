@@ -28,6 +28,8 @@ jobs:
         mkdir -p ci
         npm version patch -m "Upgrade to %s"
         npm run build
+        node ./lib/scripts/getCommunity.js > lib/community.json
+        node ./lib/scripts/getMaptranslation.js > lib/map.json
         npm publish --access=public
       env:
         NODE_AUTH_TOKEN: "${{ secrets.NPM_TOKEN }}"

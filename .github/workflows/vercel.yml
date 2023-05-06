@@ -1,4 +1,4 @@
-name: Script
+name: Vercel Deploy
 
 on:
   workflow_dispatch:
