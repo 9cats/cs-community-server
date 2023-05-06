@@ -19,6 +19,7 @@
     "start": "node lib/index.js"
   },
   "devDependencies": {
+    "axios": "^1.4.0",
     "typescript": "^5.0.4"
   }
 }

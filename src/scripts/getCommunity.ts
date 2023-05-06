@@ -1,4 +1,4 @@
-import { CSCore, CS } from "../";
+import { CSCore, CS } from "..";
 
 const keys = Object.keys(CS.community) as CSCore.Community.Name[];
 const json = {} as any;

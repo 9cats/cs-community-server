@@ -1,0 +1,30 @@
+name: Script
+
+on:
+  workflow_dispatch:
+
+jobs:
+  script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+      - name: Install Dependencies
+        run: yarn
+      - name: Install Vercel
+        run: npm install vercel -g
+      - name: Build
+        run: npm run build
+      - name: Run and Publish NPM Module
+        run: |
+          mkdir www && mkdir www/.vercel
+          node ./lib/scripts/getCommunity.js > www/community.json
+          node ./lib/scripts/getMaptranslation.js > www/map.json
+      - name: Export Env
+        run: echo "{\"orgId\":\"${{ secrets.VERCEL_ORGID }}\",\"projectId\":\"${{ secrets.VERCEL_PROJECTID }}\"}" > deploy/.vercel/project.json
+      - name: Deploy Vercel
+        run: vercel deploy www --token ${{ secrets.VERCEL_TOKEN }} --prod --yes
