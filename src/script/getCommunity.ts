@@ -1,7 +1,7 @@
 import { CSCore, CS } from "../";
 
 const keys = Object.keys(CS.community) as CSCore.Community.Name[];
-const json = {};
+const json = {} as any;
 for (const key of keys) {
   const value = CS.community[key];
   json[key] = {
