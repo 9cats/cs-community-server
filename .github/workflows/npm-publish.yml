@@ -20,16 +20,21 @@ jobs:
       run: |
         git config --global user.email "9cats+github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
-
     - name: Install Dependencies
       run: yarn
     - name: Build and Publish NPM Module
       run: |
         echo "//registry.npmjs.org/:_authToken=\${NODE_AUTH_TOKEN}" >> ~/.npmrc
         mkdir -p ci
-        cp package.json README.md ci/
-        npm install --prefix ci
-        node ci/build.js
-        git push --follow-tags origin master
+        npm version patch -m "Upgrade to %s"
+        npm run build
+        npm publish --access=public
       env:
         NODE_AUTH_TOKEN: "${{ secrets.NPM_TOKEN }}"
+    - name: Push Git Commit
+      uses: github-actions-x/commit@v2.9
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: master
+        commit-message: 'bump package version'
+        rebase: 'true'
