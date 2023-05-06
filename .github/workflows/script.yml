@@ -25,6 +25,6 @@ jobs:
           node ./lib/scripts/getCommunity.js > www/community.json
           node ./lib/scripts/getMaptranslation.js > www/map.json
       - name: Export Env
-        run: echo "{\"orgId\":\"${{ secrets.VERCEL_ORGID }}\",\"projectId\":\"${{ secrets.VERCEL_PROJECTID }}\"}" > deploy/.vercel/project.json
+        run: echo "{\"orgId\":\"${{ secrets.VERCEL_ORGID }}\",\"projectId\":\"${{ secrets.VERCEL_PROJECTID }}\"}" > www/.vercel/project.json
       - name: Deploy Vercel
         run: vercel deploy www --token ${{ secrets.VERCEL_TOKEN }} --prod --yes
