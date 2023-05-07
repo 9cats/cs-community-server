@@ -29,6 +29,7 @@ jobs:
         npm run build
         npm run getCommunityData
         npm run getMapTranslations
+        git reset --hard
         npm version patch -m "Upgrade to %s"
         npm publish --access=public
       env:
