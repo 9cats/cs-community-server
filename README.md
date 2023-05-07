@@ -13,5 +13,5 @@ npm i cs-community-server
 
 ## 从网络上获取
 
-社区服务器： https://cs.9cats.link/community.json
-地图译名： https://cs.9cats.link/map.json
+社区服务器： https://cs.9cats.link/communityData.json
+地图译名： https://cs.9cats.link/mapTranslations.json
