@@ -21,7 +21,7 @@ jobs:
         run: npm run build
       - name: Run and Publish NPM Module
         run: |
-          mkdir lib && mkdir lib/.vercel
+          mkdir lib/.vercel
           npm run getCommunityData
           npm run getMapTranslations
       - name: Export Env
