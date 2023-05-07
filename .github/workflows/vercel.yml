@@ -21,10 +21,10 @@ jobs:
         run: npm run build
       - name: Run and Publish NPM Module
         run: |
-          mkdir www && mkdir www/.vercel
-          node ./lib/scripts/getCommunity.js > www/community.json
-          node ./lib/scripts/getMaptranslation.js > www/map.json
+          mkdir lib && mkdir lib/.vercel
+          node ./lib/scripts/getCommunityData.js > lib/communityData.json
+          node ./lib/scripts/getMapTranslations.js > lib/mapTranslations.json
       - name: Export Env
-        run: echo "{\"orgId\":\"${{ secrets.VERCEL_ORGID }}\",\"projectId\":\"${{ secrets.VERCEL_PROJECTID }}\"}" > www/.vercel/project.json
+        run: echo "{\"orgId\":\"${{ secrets.VERCEL_ORGID }}\",\"projectId\":\"${{ secrets.VERCEL_PROJECTID }}\"}" > lib/.vercel/project.json
       - name: Deploy Vercel
-        run: vercel deploy www --token ${{ secrets.VERCEL_TOKEN }} --prod --yes
+        run: vercel deploy lib --token ${{ secrets.VERCEL_TOKEN }} --prod --yes
