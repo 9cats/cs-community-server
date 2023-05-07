@@ -1,4 +1,3 @@
-
 export module CS {
   export interface CommunityType {
     name: Community.Name;
@@ -23,20 +22,7 @@ export module CS {
       this.name = name;
       this.label = label;
       this.severlist = severlist;
-      this.servers = [];
-      for (const s of severlist) {
-      }
-    }
-
-    addServer(server: ServerType | ServerType[]) {
-      if (Array.isArray(server)) {
-        for (const s of server) {
-          this.servers.push({ ...s, parent: this });
-        }
-      } else {
-        this.servers.push({ ...server, parent: this });
-      }
-      return this;
+      this.servers = severlist.map((server) => ({ ...server, parent: this }));
     }
   }
   export module Community {

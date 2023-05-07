@@ -1,4 +1,4 @@
-import { CS } from "@type";
+import { CS } from "../types";
 
 export const communityData: Record<CS.Community.Name, CS.CommunityType> = {
   "ub": {

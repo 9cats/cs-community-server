@@ -22,8 +22,8 @@ jobs:
       - name: Run and Publish NPM Module
         run: |
           mkdir lib && mkdir lib/.vercel
-          node ./lib/scripts/getCommunityData.js > lib/communityData.json
-          node ./lib/scripts/getMapTranslations.js > lib/mapTranslations.json
+          npm run getCommunityData
+          npm run getMapTranslations
       - name: Export Env
         run: echo "{\"orgId\":\"${{ secrets.VERCEL_ORGID }}\",\"projectId\":\"${{ secrets.VERCEL_PROJECTID }}\"}" > lib/.vercel/project.json
       - name: Deploy Vercel

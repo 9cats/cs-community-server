@@ -16,7 +16,9 @@
   ],
   "scripts": {
     "build": "tsc",
-    "start": "node lib/index.js"
+    "start": "node lib/index.js",
+    "getCommunityData": "node ./lib/scripts/getCommunityData.js > lib/communityData.json",
+    "getMapTranslations": "node ./lib/scripts/getMapTranslations.js > lib/mapTranslations.json"
   },
   "devDependencies": {
     "@types/node": "^20.1.0",
@@ -24,6 +26,6 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "fs": "^0.0.1-security"
+    "fs-extra": "^11.1.1"
   }
 }

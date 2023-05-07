@@ -1,6 +1,6 @@
 import fs from "fs";
-import { communityData } from "@constant";
-import { CS } from "@type";
+import { communityData } from "./constant";
+import { CS } from "./types";
 
 export const community = Object.fromEntries(
   Object.entries(communityData).map(([key, val]) => [

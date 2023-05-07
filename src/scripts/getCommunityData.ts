@@ -1,3 +1,3 @@
-import { communityData } from "@constant";
+import { communityData } from "../constant";
 
 console.log(JSON.stringify(communityData));
