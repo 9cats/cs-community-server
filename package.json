@@ -19,7 +19,11 @@
     "start": "node lib/index.js"
   },
   "devDependencies": {
+    "@types/node": "^20.1.0",
     "axios": "^1.4.0",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
   }
 }
