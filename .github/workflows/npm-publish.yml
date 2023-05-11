@@ -25,10 +25,8 @@ jobs:
     - name: Build and Publish NPM Module
       run: |
         echo "//registry.npmjs.org/:_authToken=\${NODE_AUTH_TOKEN}" >> ~/.npmrc
-        mkdir -p ci
-        npm run build
-        npm run getCommunityData
         npm run getMapTranslations
+        npm run build
         git reset --hard
         npm version patch -m "Upgrade to %s"
         npm publish --access=public

@@ -17,13 +17,11 @@ jobs:
         run: yarn
       - name: Install Vercel
         run: npm install vercel -g
-      - name: Build
-        run: npm run build
       - name: Run and Publish NPM Module
         run: |
           mkdir lib/.vercel
-          npm run getCommunityData
           npm run getMapTranslations
+          npm run build
       - name: Export Env
         run: echo "{\"orgId\":\"${{ secrets.VERCEL_ORGID }}\",\"projectId\":\"${{ secrets.VERCEL_PROJECTID }}\"}" > lib/.vercel/project.json
       - name: Deploy Vercel

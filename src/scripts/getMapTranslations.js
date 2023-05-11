@@ -729,14 +729,14 @@ const mapchiname_93x = {
   ze_zombierig_p3: "钻井平台惊魂",
   ze_zombie_city_finalfix_ps2: "僵尸城市大对决",
   ze_zulu_v2: "祖鲁"
-} as const
+}
 
 
 const main = async () => {
-  const dict = {} as any
+  const dict = {}
   // 93X
   Object.keys(mapchiname_93x).forEach((key) => {
-    dict[key] =  mapchiname_93x[key as keyof typeof mapchiname_93x]
+    dict[key] =  mapchiname_93x[key]
   })
   // ZED
   
