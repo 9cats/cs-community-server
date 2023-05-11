@@ -17,8 +17,8 @@
   "scripts": {
     "build": "tsc",
     "start": "node lib/index.js",
-    "getCommunityData": "node ./lib/scripts/getCommunityData.js > lib/communityData.json",
-    "getMapTranslations": "node ./lib/scripts/getMapTranslations.js > lib/mapTranslations.json"
+    "getCommunityData": "node ./lib/scripts/getCommunityData.js > lib/data/communityData.json",
+    "getMapTranslations": "node ./lib/scripts/getMapTranslations.js > lib/data/mapTranslations.json"
   },
   "devDependencies": {
     "@types/node": "^20.1.0",

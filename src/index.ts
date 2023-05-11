@@ -1,6 +1,7 @@
 import fs from "fs";
 import { communityData } from "./constant";
 import { CS } from "./types";
+import mapTranslationsData from "./data/mapTranslations.json"
 
 export const community = Object.fromEntries(
   Object.entries(communityData).map(([key, val]) => [
@@ -9,6 +10,4 @@ export const community = Object.fromEntries(
   ])
 ) as Record<CS.Community.Name, CS.Community>;
 
-export const mapTranslations = JSON.parse(
-  fs.readFileSync(`${__dirname}/map.json`).toString()
-) as Record<string, string | null>;
+export const mapTranslations = mapTranslationsData
