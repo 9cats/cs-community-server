@@ -19,6 +19,7 @@ jobs:
         run: npm install vercel -g
       - name: Run and Publish NPM Module
         run: |
+          mkdir lib
           mkdir lib/.vercel
           npm run getMapTranslations
           npm run build
