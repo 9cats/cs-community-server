@@ -1,4 +1,4 @@
-import axios from "axios"
+const axios = require("axios");
 
 const mapchiname_93x = {
   ze_2012_p3: "世界末日到啦",
