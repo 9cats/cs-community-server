@@ -25,7 +25,6 @@ jobs:
     - name: Build and Publish NPM Module
       run: |
         echo "//registry.npmjs.org/:_authToken=\${NODE_AUTH_TOKEN}" >> ~/.npmrc
-        npm run getMapTranslations
         npm run build
         git reset --hard
         npm version patch -m "Upgrade to %s"

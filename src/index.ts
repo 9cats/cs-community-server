@@ -1,4 +1,3 @@
-import fs from "fs";
 import { CS } from "./types";
 import communityData from "./data/communityData.json";
 import mapTranslationsData from "./data/mapTranslations.json";

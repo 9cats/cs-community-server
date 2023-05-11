@@ -2,6 +2,7 @@ export module CS {
   export interface CommunityType {
     name: Community.Name;
     label: string;
+    fullname: string;
     severlist: ServerType[];
   }
 
@@ -15,12 +16,14 @@ export module CS {
   export class Community implements CommunityType {
     public name: Community.Name;
     public label: string;
+    public fullname: string;
     public severlist: ServerType[];
     public servers: Server[];
 
-    constructor({ name, label, severlist }: CommunityType) {
+    constructor({ name, fullname, label, severlist }: CommunityType) {
       this.name = name;
       this.label = label;
+      this.fullname = fullname;
       this.severlist = severlist;
       this.servers = severlist.map((server) => ({ ...server, parent: this }));
     }

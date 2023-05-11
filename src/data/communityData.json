@@ -1,7 +1,8 @@
 {
   "ub": {
     "name": "ub",
-    "label": "UB社区",
+    "label": "UB",
+    "fullname": "UB社区",
     "severlist": [
       {
         "name": "01服",
@@ -157,7 +158,8 @@
   },
   "93x": {
     "name": "93x",
-    "label": "X社区",
+    "label": "93X",
+    "fullname": "X社区",
     "severlist": [
       { "name": "01服", "mode": "ze", "host": "61.146.163.246", "port": 27165 },
       { "name": "02服", "mode": "ze", "host": "61.146.163.246", "port": 27060 },
@@ -197,7 +199,8 @@
   },
   "zed": {
     "name": "zed",
-    "label": "僵尸乐园",
+    "label": "ZED",
+    "fullname": "僵尸乐园",
     "severlist": [
       {
         "name": "01服",
@@ -365,7 +368,8 @@
   },
   "exg": {
     "name": "exg",
-    "label": "ExG社区",
+    "label": "ExG",
+    "fullname": "ExG社区",
     "severlist": [
       { "name": "01服", "mode": "ze", "host": "45.125.45.192", "port": 27015 },
       { "name": "02服", "mode": "ze", "host": "45.125.45.207", "port": 27025 },
@@ -375,10 +379,16 @@
       { "name": "06服", "mode": "ze", "host": "202.189.15.68", "port": 27035 }
     ]
   },
-  "fys": { "name": "fys", "label": "风云社", "severlist": [] },
+  "fys": {
+    "name": "fys",
+    "label": "风",
+    "fullname": "风云社",
+    "severlist": []
+  },
   "for": {
     "name": "for",
-    "label": "外服",
+    "label": "外",
+    "fullname": "外服",
     "severlist": [
       {
         "name": "(俄)Net4ALL.RU",
@@ -486,7 +496,8 @@
   },
   "css": {
     "name": "css",
-    "label": "起源服",
+    "label": "源",
+    "fullname": "起源服",
     "severlist": [
       {
         "name": "(法)NiDE.GG",
