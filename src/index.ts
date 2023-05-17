@@ -2,6 +2,8 @@ import { CS } from "./types";
 import communityData from "./data/communityData.json";
 import mapTranslationsData from "./data/mapTranslations.json";
 
+export * from "./types"
+
 export const community = Object.fromEntries(
   Object.entries(
     communityData as Record<CS.Community.Name, CS.CommunityType>
