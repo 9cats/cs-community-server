@@ -12,6 +12,9 @@ export module CS {
     host: string;
     port: number;
   }
+  export interface Server extends ServerType {
+    parent: Community;
+  }
 
   export class Community implements CommunityType {
     public name: Community.Name;
@@ -41,7 +44,7 @@ export module CS {
     export type Name = (typeof RecordedCommunity)[number];
   }
 
-  module Server {
+  export module Server {
     const Modes = [
       "zm", // 僵尸感染
       "ze", // 僵尸逃跑
@@ -55,9 +58,5 @@ export module CS {
       "dr", // 死亡奔跑
     ] as const;
     export type Mode = (typeof Modes)[number];
-  }
-
-  export interface Server extends ServerType {
-    parent: Community;
   }
 }

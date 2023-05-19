@@ -13,6 +13,6 @@ npm i cs-community-server
 
 ## 从网络上获取
 
-社区服务器： https://cs.9cats.link/data/communityData.json
+社区服务器： https://npm.elemecdn.com/cs-community-server@latest/lib/data/communityData.json
 
-地图译名： https://cs.9cats.link/data/mapTranslations.json
+地图译名： https://npm.elemecdn.com/cs-community-server@latest/lib/data/mapTranslations.json
