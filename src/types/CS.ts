@@ -59,4 +59,7 @@ export module CS {
     ] as const;
     export type Mode = (typeof Modes)[number];
   }
+
+  export const DefaultGamemode: Server.Mode = "ze"
+  export const Default
 }

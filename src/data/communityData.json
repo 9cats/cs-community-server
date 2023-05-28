@@ -1,4 +1,65 @@
 {
+  "93x": {
+    "name": "93x",
+    "label": "93X",
+    "fullname": "X社区",
+    "severlist": [
+      {
+        "name": "01服",
+        "mode": "ze",
+        "host": "game-csgo-ze-steam-15.upkk.com",
+        "port": 27165
+      },
+      {
+        "name": "02服",
+        "mode": "ze",
+        "host": "game-csgo-ze-steam-26.upkk.com",
+        "port": 27060
+      },
+      {
+        "name": "03服",
+        "mode": "ze",
+        "host": "game-csgo-ze-steam-27.upkk.com",
+        "port": 27175
+      },
+      {
+        "name": "测试服",
+        "mode": "ze",
+        "host": "game-csgo-ze-steam-2539.upkk.com",
+        "port": 22016
+      },
+      {
+        "name": "娱乐1服",
+        "mode": "mg",
+        "host": "game-csgo-mg-steam-28.upkk.com",
+        "port": 27018
+      },
+      {
+        "name": "娱乐2服",
+        "mode": "mg",
+        "host": "game-csgo-mg-steam-9.upkk.com",
+        "port": 27030
+      },
+      {
+        "name": "娱乐3服",
+        "mode": "mg",
+        "host": "game-csgo-mg-steam-2540.upkk.com",
+        "port": 28300
+      },
+      {
+        "name": "闯关1服",
+        "mode": "mg",
+        "host": "game-csgo-mg-steam-29.upkk.com",
+        "port": 27025
+      },
+      {
+        "name": "闯关2服",
+        "mode": "mg",
+        "host": "game-csgo-mg-steam-33.upkk.com",
+        "port": 27060
+      }
+    ]
+  },
   "ub": {
     "name": "ub",
     "label": "UB",
@@ -154,47 +215,6 @@
         "host": "csgo1.moeub.com",
         "port": 27064
       }
-    ]
-  },
-  "93x": {
-    "name": "93x",
-    "label": "93X",
-    "fullname": "X社区",
-    "severlist": [
-      { "name": "01服", "mode": "ze", "host": "61.146.163.246", "port": 27165 },
-      { "name": "02服", "mode": "ze", "host": "61.146.163.246", "port": 27060 },
-      { "name": "03服", "mode": "ze", "host": "61.146.163.246", "port": 27175 },
-      {
-        "name": "测试服",
-        "mode": "ze",
-        "host": "61.146.163.246",
-        "port": 22016
-      },
-      {
-        "name": "娱乐1服",
-        "mode": "mg",
-        "host": "45.125.44.52",
-        "port": 27018
-      },
-      {
-        "name": "娱乐2服",
-        "mode": "mg",
-        "host": "45.125.44.52",
-        "port": 27030
-      },
-      {
-        "name": "娱乐3服",
-        "mode": "mg",
-        "host": "113.100.188.32",
-        "port": 28300
-      },
-      {
-        "name": "闯关1服",
-        "mode": "mg",
-        "host": "45.125.44.52",
-        "port": 27025
-      },
-      { "name": "闯关2服", "mode": "mg", "host": "45.125.44.52", "port": 27060 }
     ]
   },
   "zed": {
@@ -371,9 +391,9 @@
     "label": "ExG",
     "fullname": "ExG社区",
     "severlist": [
-      { "name": "01服", "mode": "ze", "host": "45.125.45.192", "port": 27015 },
-      { "name": "02服", "mode": "ze", "host": "45.125.45.207", "port": 27025 },
-      { "name": "03服", "mode": "ze", "host": "45.125.45.207", "port": 27035 },
+      { "name": "01服", "mode": "ze", "host": "202.189.15.76", "port": 27045 },
+      { "name": "02服", "mode": "ze", "host": "202.189.15.76", "port": 27055 },
+      { "name": "03服", "mode": "ze", "host": "202.189.15.76", "port": 27065 },
       { "name": "04服", "mode": "ze", "host": "202.189.15.68", "port": 27015 },
       { "name": "05服", "mode": "ze", "host": "202.189.15.68", "port": 27025 },
       { "name": "06服", "mode": "ze", "host": "202.189.15.68", "port": 27035 }
