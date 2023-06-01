@@ -403,7 +403,17 @@
     "name": "fys",
     "label": "风",
     "fullname": "风云社",
-    "severlist": []
+    "severlist": [
+      { "name": "01服", "mode": "ze", "host": "ze-1.1mgou.com", "port": 27018 },
+      { "name": "02服", "mode": "ze", "host": "ze-2.1mgou.com", "port": 27030 },
+      { "name": "03服", "mode": "ze", "host": "ze-3.1mgou.com", "port": 27015 },
+      { "name": "04服", "mode": "ze", "host": "ze-4.1mgou.com", "port": 27016 },
+      { "name": "05服", "mode": "ze", "host": "ze-5.1mgou.com", "port": 27015 },
+      { "name": "06服", "mode": "ze", "host": "ze-6.1mgou.com", "port": 27016 },
+      { "name": "07服", "mode": "ze", "host": "ze-7.1mgou.com", "port": 27017 },
+      { "name": "08服", "mode": "ze", "host": "ze-8.1mgou.com", "port": 27080 },
+      { "name": "09服", "mode": "ze", "host": "ze-9.1mgou.com", "port": 27090 }
+    ]
   },
   "for": {
     "name": "for",
