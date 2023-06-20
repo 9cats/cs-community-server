@@ -1,4 +1,4 @@
-const axios = require("axios");
+const axios = require("axios")
 
 const mapchiname_93x = {
   ze_2012_p3: "世界末日到啦",
@@ -731,15 +731,14 @@ const mapchiname_93x = {
   ze_zulu_v2: "祖鲁"
 }
 
-
 const main = async () => {
   const dict = {}
   // 93X
   Object.keys(mapchiname_93x).forEach((key) => {
-    dict[key] =  mapchiname_93x[key]
+    dict[key] = mapchiname_93x[key]
   })
   // ZED
-  
+
   // UB
   const res = await axios.get("https://game.moeub.cn/api/maps?current=1&pageSize=10000&page=1")
   const list = res.data.data.data
@@ -749,6 +748,5 @@ const main = async () => {
 
   console.log(JSON.stringify(dict))
 }
-
 
 main()
