@@ -472,64 +472,85 @@
     "cname": "fys",
     "name": "01服",
     "mode": "ze",
-    "host": "ze-1.1mgou.com",
+    "host": "1.csgoze.com",
     "port": 27018
   },
   {
     "cname": "fys",
     "name": "02服",
     "mode": "ze",
-    "host": "ze-2.1mgou.com",
+    "host": "2.csgoze.com",
     "port": 27030
   },
   {
     "cname": "fys",
     "name": "03服",
     "mode": "ze",
-    "host": "ze-3.1mgou.com",
+    "host": "3.csgoze.com",
     "port": 27015
   },
   {
     "cname": "fys",
     "name": "04服",
     "mode": "ze",
-    "host": "ze-4.1mgou.com",
+    "host": "4.csgoze.com",
     "port": 27016
   },
   {
     "cname": "fys",
     "name": "05服",
     "mode": "ze",
-    "host": "ze-5.1mgou.com",
+    "host": "5.csgoze.com",
     "port": 27015
   },
   {
     "cname": "fys",
     "name": "06服",
     "mode": "ze",
-    "host": "ze-6.1mgou.com",
+    "host": "6.csgoze.com",
     "port": 27016
   },
   {
     "cname": "fys",
     "name": "07服",
     "mode": "ze",
-    "host": "ze-7.1mgou.com",
+    "host": "7.csgoze.com",
     "port": 27017
   },
   {
     "cname": "fys",
     "name": "08服",
     "mode": "ze",
-    "host": "ze-8.1mgou.com",
+    "host": "8.csgoze.com",
     "port": 27080
   },
   {
     "cname": "fys",
     "name": "09服",
     "mode": "ze",
-    "host": "ze-9.1mgou.com",
+    "host": "9.csgoze.com",
     "port": 27090
+  },
+  {
+    "cname": "fys",
+    "name": "10服",
+    "mode": "ze",
+    "host": "10.csgoze.com",
+    "port": 27099
+  },
+  {
+    "cname": "fys",
+    "name": "11服",
+    "mode": "ze",
+    "host": "11.csgoze.com",
+    "port": 27111
+  },
+  {
+    "cname": "fys",
+    "name": "12服",
+    "mode": "ze",
+    "host": "12.csgoze.com",
+    "port": 27122
   },
   {
     "cname": "for",
