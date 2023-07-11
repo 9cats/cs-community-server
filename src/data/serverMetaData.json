@@ -645,6 +645,13 @@
   },
   {
     "cname": "for",
+    "name": "(新加坡)GHOSTCAP",
+    "mode": "ze",
+    "host": "15.235.181.104",
+    "port": 27015
+  },
+  {
+    "cname": "for",
     "name": "(波兰)GGEASY",
     "mode": "ze",
     "host": "51.83.230.65",
@@ -655,13 +662,6 @@
     "name": "(德)MizaPro",
     "mode": "ze",
     "host": "95.156.230.11",
-    "port": 27015
-  },
-  {
-    "cname": "for",
-    "name": "(英)SameTeem",
-    "mode": "ze",
-    "host": "54.38.212.55",
     "port": 27015
   },
   {
