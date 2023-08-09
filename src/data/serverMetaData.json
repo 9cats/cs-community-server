@@ -66,14 +66,14 @@
     "cname": "ub",
     "name": "01服",
     "mode": "ze",
-    "host": "csgo1.moeub.com",
+    "host": "csgo2.moeub.com",
     "port": 27011
   },
   {
     "cname": "ub",
     "name": "02服",
     "mode": "ze",
-    "host": "csgo1.moeub.com",
+    "host": "csgo2.moeub.com",
     "port": 27021
   },
   {
@@ -122,14 +122,14 @@
     "cname": "ub",
     "name": "09服",
     "mode": "ze",
-    "host": "csgo1.moeub.com",
+    "host": "csgo2.moeub.com",
     "port": 27091
   },
   {
     "cname": "ub",
     "name": "10服",
     "mode": "ze",
-    "host": "csgo1.moeub.com",
+    "host": "csgo2.moeub.com",
     "port": 27101
   },
   {
@@ -157,28 +157,28 @@
     "cname": "ub",
     "name": "混战1服",
     "mode": "de",
-    "host": "csgo1.moeub.com",
+    "host": "csgo2.moeub.com",
     "port": 27015
   },
   {
     "cname": "ub",
     "name": "混战2服",
     "mode": "de",
-    "host": "csgo1.moeub.com",
+    "host": "csgo2.moeub.com",
     "port": 27025
   },
   {
     "cname": "ub",
     "name": "混战3服",
     "mode": "de",
-    "host": "csgo1.moeub.com",
+    "host": "csgo2.moeub.com",
     "port": 27035
   },
   {
     "cname": "ub",
     "name": "混战4服",
     "mode": "de",
-    "host": "csgo1.moeub.com",
+    "host": "csgo2.moeub.com",
     "port": 27045
   },
   {
