@@ -94,14 +94,14 @@
     "cname": "ub",
     "name": "05服",
     "mode": "ze",
-    "host": "csgo1.moeub.com",
+    "host": "csgo2.moeub.com",
     "port": 27051
   },
   {
     "cname": "ub",
     "name": "06服",
     "mode": "ze",
-    "host": "csgo1.moeub.com",
+    "host": "csgo2.moeub.com",
     "port": 27061
   },
   {
