@@ -553,6 +553,90 @@
     "port": 27122
   },
   {
+    "cname": "fys",
+    "name": "极限跳跃[连跳]",
+    "mode": "kz",
+    "host": "kz-1.1mgou.com",
+    "port": 27035
+  },
+  {
+    "cname": "fys",
+    "name": "极限跳跃[攀岩]",
+    "mode": "kz",
+    "host": "kz-2.1mgou.com",
+    "port": 27045
+  },
+  {
+    "cname": "fys",
+    "name": "极限跳跃[长图]",
+    "mode": "kz",
+    "host": "kz-3.1mgou.com",
+    "port": 27055
+  },
+  {
+    "cname": "fys",
+    "name": "极限跳跃[高手]",
+    "mode": "kz",
+    "host": "kz-4.1mgou.com",
+    "port": 27065
+  },
+  {
+    "cname": "fys",
+    "name": "连跳竞赛[新手]",
+    "mode": "bhop",
+    "host": "bhop-1.1mgou.com",
+    "port": 27075
+  },
+  {
+    "cname": "fys",
+    "name": "连跳竞赛[进阶]",
+    "mode": "bhop",
+    "host": "bhop-2.1mgou.com",
+    "port": 27085
+  },
+  {
+    "cname": "fys",
+    "name": "滑翔竞速[新手]",
+    "mode": "surf",
+    "host": "sr-1.1mgou.com",
+    "port": 27022
+  },
+  {
+    "cname": "fys",
+    "name": "连跳竞赛[高手]",
+    "mode": "surf",
+    "host": "sr-2.1mgou.com",
+    "port": 27026
+  },
+  {
+    "cname": "fys",
+    "name": "娱乐1服",
+    "mode": "mg",
+    "host": "1.csgomg.com",
+    "port": 27028
+  },
+  {
+    "cname": "fys",
+    "name": "娱乐2服",
+    "mode": "mg",
+    "host": "2.csgomg.com",
+    "port": 27088
+  },
+  {
+    "cname": "fys",
+    "name": "魔兽混战1服",
+    "mode": "mg",
+    "host": "w3-1.1mgou.com",
+    "port": 27050
+  },
+  {
+    "cname": "fys",
+    "name": "魔兽混战2服",
+    "mode": "mg",
+    "host": "w3-2.1mgou.com",
+    "port": 27060
+  },
+  {
     "cname": "for",
     "name": "(俄)Net4ALL.RU",
     "mode": "ze",
