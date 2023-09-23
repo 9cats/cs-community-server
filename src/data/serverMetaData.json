@@ -1,6 +1,13 @@
 [
   {
     "cname": "93x",
+    "name": "纯净服",
+    "mode": "ze",
+    "host": "game-csgo-ze-steam-2541.upkk.com",
+    "port": 28310
+  },
+  {
+    "cname": "93x",
     "name": "01服",
     "mode": "ze",
     "host": "game-csgo-ze-steam-15.upkk.com",
@@ -66,175 +73,175 @@
     "cname": "ub",
     "name": "01服",
     "mode": "ze",
-    "host": "csgo2.moeub.com",
+    "host": "110.42.9.200",
     "port": 27011
   },
   {
     "cname": "ub",
     "name": "02服",
     "mode": "ze",
-    "host": "csgo2.moeub.com",
+    "host": "110.42.9.200",
     "port": 27021
   },
   {
     "cname": "ub",
     "name": "03服",
     "mode": "ze",
-    "host": "csgo1.moeub.com",
+    "host": "43.248.188.169",
     "port": 27031
   },
   {
     "cname": "ub",
     "name": "04服",
     "mode": "ze",
-    "host": "csgo1.moeub.com",
+    "host": "43.248.188.169",
     "port": 27041
   },
   {
     "cname": "ub",
     "name": "05服",
     "mode": "ze",
-    "host": "csgo2.moeub.com",
+    "host": "110.42.9.200",
     "port": 27051
   },
   {
     "cname": "ub",
     "name": "06服",
     "mode": "ze",
-    "host": "csgo2.moeub.com",
+    "host": "110.42.9.200",
     "port": 27061
   },
   {
     "cname": "ub",
     "name": "07服",
     "mode": "ze",
-    "host": "csgo2.moeub.com",
+    "host": "110.42.9.200",
     "port": 27071
   },
   {
     "cname": "ub",
     "name": "08服",
     "mode": "ze",
-    "host": "csgo2.moeub.com",
+    "host": "110.42.9.200",
     "port": 27081
   },
   {
     "cname": "ub",
     "name": "09服",
     "mode": "ze",
-    "host": "csgo2.moeub.com",
+    "host": "110.42.9.200",
     "port": 27091
   },
   {
     "cname": "ub",
     "name": "10服",
     "mode": "ze",
-    "host": "csgo2.moeub.com",
+    "host": "110.42.9.200",
     "port": 27101
   },
   {
     "cname": "ub",
     "name": "11服",
     "mode": "ze",
-    "host": "csgo1.moeub.com",
+    "host": "43.248.188.169",
     "port": 27111
   },
   {
     "cname": "ub",
     "name": "娱乐1服",
     "mode": "mg",
-    "host": "csgo1.moeub.com",
+    "host": "43.248.188.169",
     "port": 27012
   },
   {
     "cname": "ub",
     "name": "娱乐2服",
     "mode": "mg",
-    "host": "csgo1.moeub.com",
+    "host": "43.248.188.169",
     "port": 27022
   },
   {
     "cname": "ub",
     "name": "混战1服",
     "mode": "de",
-    "host": "csgo2.moeub.com",
+    "host": "110.42.9.200",
     "port": 27015
   },
   {
     "cname": "ub",
     "name": "混战2服",
     "mode": "de",
-    "host": "csgo2.moeub.com",
+    "host": "110.42.9.200",
     "port": 27025
   },
   {
     "cname": "ub",
     "name": "混战3服",
     "mode": "de",
-    "host": "csgo2.moeub.com",
+    "host": "110.42.9.200",
     "port": 27035
   },
   {
     "cname": "ub",
     "name": "混战4服",
     "mode": "de",
-    "host": "csgo2.moeub.com",
+    "host": "110.42.9.200",
     "port": 27045
   },
   {
     "cname": "ub",
     "name": "越狱1服",
     "mode": "jb",
-    "host": "csgo1.moeub.com",
+    "host": "43.248.188.169",
     "port": 27013
   },
   {
     "cname": "ub",
     "name": "越狱2服",
     "mode": "jb",
-    "host": "csgo1.moeub.com",
+    "host": "43.248.188.169",
     "port": 27023
   },
   {
     "cname": "ub",
     "name": "攀岩1服",
     "mode": "kz",
-    "host": "csgo1.moeub.com",
+    "host": "43.248.188.169",
     "port": 27014
   },
   {
     "cname": "ub",
     "name": "攀岩2服",
     "mode": "kz",
-    "host": "csgo1.moeub.com",
+    "host": "43.248.188.169",
     "port": 27024
   },
   {
     "cname": "ub",
     "name": "攀岩3服",
     "mode": "kz",
-    "host": "csgo1.moeub.com",
+    "host": "43.248.188.169",
     "port": 27034
   },
   {
     "cname": "ub",
     "name": "攀岩4服",
     "mode": "kz",
-    "host": "csgo1.moeub.com",
+    "host": "43.248.188.169",
     "port": 27044
   },
   {
     "cname": "ub",
     "name": "攀岩5服",
     "mode": "kz",
-    "host": "csgo1.moeub.com",
+    "host": "43.248.188.169",
     "port": 27054
   },
   {
     "cname": "ub",
     "name": "攀岩6服",
     "mode": "kz",
-    "host": "csgo1.moeub.com",
+    "host": "43.248.188.169",
     "port": 27064
   },
   {
