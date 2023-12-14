@@ -456,52 +456,59 @@
   },
   {
     "cname": "exg",
-    "name": "04服",
+    "name": "(CS2)01服",
     "mode": "ze",
     "host": "202.189.15.68",
-    "port": 27015
+    "port": 30000
   },
   {
     "cname": "exg",
-    "name": "05服",
+    "name": "(CS2)02服",
     "mode": "ze",
-    "host": "202.189.15.68",
+    "host": "45.125.47.230",
+    "port": 27055
+  },
+  {
+    "cname": "exg",
+    "name": "(CS2)03服",
+    "mode": "ze",
+    "host": "45.125.47.230",
     "port": 27025
   },
   {
     "cname": "exg",
-    "name": "06服",
+    "name": "(CS2)04服",
     "mode": "ze",
-    "host": "202.189.15.68",
+    "host": "45.125.47.230",
     "port": 27035
   },
   {
-    "cname": "fys",
-    "name": "01服",
+    "cname": "exg",
+    "name": "(CS2)05服",
     "mode": "ze",
-    "host": "1.csgoze.com",
-    "port": 27018
+    "host": "45.125.47.230",
+    "port": 27045
   },
   {
-    "cname": "fys",
-    "name": "02服",
+    "cname": "exg",
+    "name": "(CS2)06服",
     "mode": "ze",
-    "host": "2.csgoze.com",
-    "port": 27030
+    "host": "45.125.45.244",
+    "port": 31000
   },
   {
-    "cname": "fys",
-    "name": "03服",
+    "cname": "exg",
+    "name": "(CS2)07服",
     "mode": "ze",
-    "host": "3.csgoze.com",
-    "port": 27015
+    "host": "45.125.45.244",
+    "port": 31010
   },
   {
-    "cname": "fys",
-    "name": "04服",
+    "cname": "exg",
+    "name": "(CS2)08服",
     "mode": "ze",
-    "host": "4.csgoze.com",
-    "port": 27016
+    "host": "45.125.45.244",
+    "port": 31020
   },
   {
     "cname": "fys",
@@ -558,6 +565,48 @@
     "mode": "ze",
     "host": "12.csgoze.com",
     "port": 27122
+  },
+  {
+    "cname": "fys",
+    "name": "(CS2)01服",
+    "mode": "ze",
+    "host": "45.125.45.70",
+    "port": 27015
+  },
+  {
+    "cname": "fys",
+    "name": "(CS2)01服",
+    "mode": "ze",
+    "host": "45.125.45.70",
+    "port": 27015
+  },
+  {
+    "cname": "fys",
+    "name": "(CS2)02服",
+    "mode": "ze",
+    "host": "43.249.195.175",
+    "port": 27015
+  },
+  {
+    "cname": "fys",
+    "name": "(CS2)03服",
+    "mode": "ze",
+    "host": "43.249.195.175",
+    "port": 27025
+  },
+  {
+    "cname": "fys",
+    "name": "(CS2)04服",
+    "mode": "ze",
+    "host": "180.188.24.2",
+    "port": 27015
+  },
+  {
+    "cname": "fys",
+    "name": "(CS2)05服",
+    "mode": "ze",
+    "host": "180.188.24.2",
+    "port": 27016
   },
   {
     "cname": "fys",
@@ -709,6 +758,13 @@
   {
     "cname": "for",
     "name": "(美)GFLClan",
+    "mode": "ze",
+    "host": "192.223.26.72",
+    "port": 27015
+  },
+  {
+    "cname": "for",
+    "name": "(CS2|美)GFLClan",
     "mode": "ze",
     "host": "216.52.148.47",
     "port": 27015
