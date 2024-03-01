@@ -687,6 +687,20 @@
   },
   {
     "cname": "for",
+    "name": "②(美)GFLClan",
+    "mode": "ze",
+    "host": "216.52.148.47",
+    "port": 27015
+  },
+  {
+    "cname": "for",
+    "name": "(美)GFLClan",
+    "mode": "ze",
+    "host": "192.223.26.72",
+    "port": 27015
+  },
+  {
+    "cname": "for",
     "name": "(俄)Net4ALL.RU",
     "mode": "ze",
     "host": "37.230.137.238",
@@ -747,20 +761,6 @@
     "mode": "ze",
     "host": "103.137.14.27",
     "port": 27058
-  },
-  {
-    "cname": "for",
-    "name": "(美)GFLClan",
-    "mode": "ze",
-    "host": "192.223.26.72",
-    "port": 27015
-  },
-  {
-    "cname": "for",
-    "name": "②(美)GFLClan",
-    "mode": "ze",
-    "host": "216.52.148.47",
-    "port": 27015
   },
   {
     "cname": "for",
