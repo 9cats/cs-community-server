@@ -1,7 +1,7 @@
 {
   "name": "cs-community-server",
   "description": "csgo (Counter-Strike: Global Offensive) and css (Counter-Strike: Source) community server",
-  "version": "0.1.12",
+  "version": "0.1.14",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
