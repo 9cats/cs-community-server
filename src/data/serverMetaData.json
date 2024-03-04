@@ -442,30 +442,9 @@
   },
   {
     "cname": "exg",
-    "name": "01服",
-    "mode": "ze",
-    "host": "202.189.15.76",
-    "port": 27045
-  },
-  {
-    "cname": "exg",
-    "name": "02服",
-    "mode": "ze",
-    "host": "202.189.15.76",
-    "port": 27055
-  },
-  {
-    "cname": "exg",
-    "name": "03服",
-    "mode": "ze",
-    "host": "202.189.15.76",
-    "port": 27065
-  },
-  {
-    "cname": "exg",
     "name": "②僵尸逃跑01服",
     "mode": "ze",
-    "host": "202.189.15.68",
+    "host": "45.125.45.244",
     "port": 30000
   },
   {
@@ -516,6 +495,27 @@
     "mode": "ze",
     "host": "45.125.45.244",
     "port": 31020
+  },
+  {
+    "cname": "exg",
+    "name": "01服",
+    "mode": "ze",
+    "host": "202.189.15.68",
+    "port": 27045
+  },
+  {
+    "cname": "exg",
+    "name": "02服",
+    "mode": "ze",
+    "host": "202.189.15.68",
+    "port": 27055
+  },
+  {
+    "cname": "exg",
+    "name": "03服",
+    "mode": "ze",
+    "host": "202.189.15.68",
+    "port": 27065
   },
   {
     "cname": "fys",
@@ -701,65 +701,37 @@
   },
   {
     "cname": "for",
-    "name": "(美)GFLClan",
+    "name": "②(法)MAPEADORES",
     "mode": "ze",
-    "host": "192.223.26.72",
+    "host": "87.98.228.196",
+    "port": 27040
+  },
+  {
+    "cname": "for",
+    "name": "②(新加坡)GHOSTCAP",
+    "mode": "ze",
+    "host": "15.235.181.104",
     "port": 27015
   },
   {
     "cname": "for",
-    "name": "(俄)Net4ALL.RU",
-    "mode": "ze",
-    "host": "37.230.137.238",
-    "port": 27015
-  },
-  {
-    "cname": "for",
-    "name": "(俄)CYBERSHOKE-1",
-    "mode": "ze",
-    "host": "37.230.210.75",
-    "port": 27024
-  },
-  {
-    "cname": "for",
-    "name": "(俄)CYBERSHOKE-2",
-    "mode": "ze",
-    "host": "91.211.118.96",
-    "port": 27045
-  },
-  {
-    "cname": "for",
-    "name": "(俄)THE LAST OF US",
-    "mode": "ze",
-    "host": "46.174.52.44",
-    "port": 27015
-  },
-  {
-    "cname": "for",
-    "name": "(俄)BC18GO",
-    "mode": "ze",
-    "host": "46.174.53.198",
-    "port": 27015
-  },
-  {
-    "cname": "for",
-    "name": "(俄)LEGIONWCSZM",
-    "mode": "ze",
-    "host": "146.19.87.169",
-    "port": 27015
-  },
-  {
-    "cname": "for",
-    "name": "(韩)RSS",
+    "name": "②(韩)RSS",
     "mode": "ze",
     "host": "125.129.91.62",
     "port": 27015
   },
   {
     "cname": "for",
-    "name": "(澳)GHOSTCAP",
+    "name": "②(德)MizaPro",
     "mode": "ze",
-    "host": "203.27.106.53",
+    "host": "95.156.230.11",
+    "port": 27015
+  },
+  {
+    "cname": "for",
+    "name": "(美)GFLClan",
+    "mode": "ze",
+    "host": "192.223.26.72",
     "port": 27015
   },
   {
@@ -768,13 +740,6 @@
     "mode": "ze",
     "host": "103.137.14.27",
     "port": 27058
-  },
-  {
-    "cname": "for",
-    "name": "(法)MAPEADORES",
-    "mode": "ze",
-    "host": "87.98.228.196",
-    "port": 27040
   },
   {
     "cname": "for",
@@ -792,23 +757,9 @@
   },
   {
     "cname": "for",
-    "name": "(新加坡)GHOSTCAP",
-    "mode": "ze",
-    "host": "15.235.181.104",
-    "port": 27015
-  },
-  {
-    "cname": "for",
     "name": "(波兰)GGEASY",
     "mode": "ze",
     "host": "51.83.230.65",
-    "port": 27015
-  },
-  {
-    "cname": "for",
-    "name": "(德)MizaPro",
-    "mode": "ze",
-    "host": "95.156.230.11",
     "port": 27015
   },
   {
