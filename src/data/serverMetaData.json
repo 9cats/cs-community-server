@@ -92,10 +92,24 @@
   },
   {
     "cname": "ub",
-    "name": "②僵尸逃跑04服",
+    "name": "②僵尸逃跑05服",
     "mode": "ze",
-    "host": "110.42.9.188",
-    "port": 27041
+    "host": "110.42.9.130",
+    "port": 27051
+  },
+  {
+    "cname": "ub",
+    "name": "②僵尸逃跑06服",
+    "mode": "ze",
+    "host": "110.42.9.130",
+    "port": 27061
+  },
+  {
+    "cname": "ub",
+    "name": "②僵尸逃跑07服",
+    "mode": "ze",
+    "host": "110.42.9.130",
+    "port": 27071
   },
   {
     "cname": "ub",
@@ -117,13 +131,6 @@
     "mode": "ze",
     "host": "110.42.9.195",
     "port": 27131
-  },
-  {
-    "cname": "ub",
-    "name": "②僵尸逃跑14服",
-    "mode": "ze",
-    "host": "110.42.9.195",
-    "port": 27141
   },
   {
     "cname": "ub",
@@ -500,28 +507,28 @@
     "cname": "exg",
     "name": "②僵尸逃跑02服",
     "mode": "ze",
-    "host": "45.125.47.230",
+    "host": "103.91.208.61",
     "port": 27055
   },
   {
     "cname": "exg",
     "name": "②僵尸逃跑03服",
     "mode": "ze",
-    "host": "45.125.47.230",
+    "host": "103.91.208.61",
     "port": 27025
   },
   {
     "cname": "exg",
     "name": "②僵尸逃跑04服",
     "mode": "ze",
-    "host": "45.125.47.230",
+    "host": "202.189.7.69",
     "port": 27035
   },
   {
     "cname": "exg",
     "name": "②僵尸逃跑05服",
     "mode": "ze",
-    "host": "45.125.47.230",
+    "host": "202.189.7.69",
     "port": 27045
   },
   {
@@ -535,211 +542,71 @@
     "cname": "exg",
     "name": "②僵尸逃跑07服",
     "mode": "ze",
-    "host": "45.125.45.244",
+    "host": "45.125.45.216",
     "port": 31010
   },
   {
     "cname": "exg",
     "name": "②僵尸逃跑08服",
     "mode": "ze",
-    "host": "45.125.45.244",
+    "host": "45.125.45.216",
     "port": 31020
-  },
-  {
-    "cname": "exg",
-    "name": "01服",
-    "mode": "ze",
-    "host": "202.189.15.68",
-    "port": 27045
-  },
-  {
-    "cname": "exg",
-    "name": "02服",
-    "mode": "ze",
-    "host": "202.189.15.68",
-    "port": 27055
-  },
-  {
-    "cname": "exg",
-    "name": "03服",
-    "mode": "ze",
-    "host": "202.189.15.68",
-    "port": 27065
-  },
-  {
-    "cname": "fys",
-    "name": "僵尸逃跑05服",
-    "mode": "ze",
-    "host": "5.csgoze.com",
-    "port": 27015
-  },
-  {
-    "cname": "fys",
-    "name": "僵尸逃跑06服",
-    "mode": "ze",
-    "host": "6.csgoze.com",
-    "port": 27016
-  },
-  {
-    "cname": "fys",
-    "name": "僵尸逃跑07服",
-    "mode": "ze",
-    "host": "7.csgoze.com",
-    "port": 27017
-  },
-  {
-    "cname": "fys",
-    "name": "僵尸逃跑08服",
-    "mode": "ze",
-    "host": "8.csgoze.com",
-    "port": 27080
-  },
-  {
-    "cname": "fys",
-    "name": "僵尸逃跑09服",
-    "mode": "ze",
-    "host": "9.csgoze.com",
-    "port": 27090
-  },
-  {
-    "cname": "fys",
-    "name": "僵尸逃跑10服",
-    "mode": "ze",
-    "host": "10.csgoze.com",
-    "port": 27099
-  },
-  {
-    "cname": "fys",
-    "name": "僵尸逃跑11服",
-    "mode": "ze",
-    "host": "11.csgoze.com",
-    "port": 27111
-  },
-  {
-    "cname": "fys",
-    "name": "僵尸逃跑12服",
-    "mode": "ze",
-    "host": "12.csgoze.com",
-    "port": 27122
   },
   {
     "cname": "fys",
     "name": "②僵尸逃跑01服",
     "mode": "ze",
-    "host": "45.125.45.70",
+    "host": "cs2.fyscs.cn",
     "port": 27015
   },
   {
     "cname": "fys",
     "name": "②僵尸逃跑02服",
     "mode": "ze",
-    "host": "43.249.195.175",
-    "port": 27015
+    "host": "s2.cs2ze.com",
+    "port": 27025
   },
   {
     "cname": "fys",
     "name": "②僵尸逃跑03服",
     "mode": "ze",
-    "host": "43.249.195.175",
-    "port": 27025
+    "host": "s3.cs2ze.com",
+    "port": 27035
   },
   {
     "cname": "fys",
     "name": "②僵尸逃跑04服",
     "mode": "ze",
-    "host": "180.188.24.2",
-    "port": 27015
+    "host": "s4.cs2ze.com",
+    "port": 27045
   },
   {
     "cname": "fys",
     "name": "②僵尸逃跑05服",
     "mode": "ze",
-    "host": "180.188.24.2",
-    "port": 27016
-  },
-  {
-    "cname": "fys",
-    "name": "极限跳跃[连跳]",
-    "mode": "kz",
-    "host": "kz-1.1mgou.com",
-    "port": 27035
-  },
-  {
-    "cname": "fys",
-    "name": "极限跳跃[攀岩]",
-    "mode": "kz",
-    "host": "kz-2.1mgou.com",
-    "port": 27045
-  },
-  {
-    "cname": "fys",
-    "name": "极限跳跃[长图]",
-    "mode": "kz",
-    "host": "kz-3.1mgou.com",
+    "host": "s5.cs2ze.com",
     "port": 27055
   },
   {
     "cname": "fys",
-    "name": "极限跳跃[高手]",
-    "mode": "kz",
-    "host": "kz-4.1mgou.com",
+    "name": "②僵尸逃跑06服",
+    "mode": "ze",
+    "host": "s6.cs2ze.com",
     "port": 27065
   },
   {
     "cname": "fys",
-    "name": "连跳竞赛[新手]",
-    "mode": "bhop",
-    "host": "bhop-1.1mgou.com",
+    "name": "②僵尸逃跑07服",
+    "mode": "ze",
+    "host": "s7.cs2ze.com",
     "port": 27075
   },
   {
     "cname": "fys",
-    "name": "连跳竞赛[进阶]",
-    "mode": "bhop",
-    "host": "bhop-2.1mgou.com",
+    "name": "②僵尸逃跑08服",
+    "mode": "ze",
+    "host": "s8.cs2ze.com",
     "port": 27085
-  },
-  {
-    "cname": "fys",
-    "name": "滑翔竞速[新手]",
-    "mode": "surf",
-    "host": "sr-1.1mgou.com",
-    "port": 27022
-  },
-  {
-    "cname": "fys",
-    "name": "连跳竞赛[高手]",
-    "mode": "surf",
-    "host": "sr-2.1mgou.com",
-    "port": 27026
-  },
-  {
-    "cname": "fys",
-    "name": "娱乐1服",
-    "mode": "mg",
-    "host": "1.csgomg.com",
-    "port": 27028
-  },
-  {
-    "cname": "fys",
-    "name": "娱乐2服",
-    "mode": "mg",
-    "host": "2.csgomg.com",
-    "port": 27088
-  },
-  {
-    "cname": "fys",
-    "name": "魔兽混战1服",
-    "mode": "mg",
-    "host": "w3-1.1mgou.com",
-    "port": 27050
-  },
-  {
-    "cname": "fys",
-    "name": "魔兽混战2服",
-    "mode": "mg",
-    "host": "w3-2.1mgou.com",
-    "port": 27060
   },
   {
     "cname": "for",
