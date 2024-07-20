@@ -316,6 +316,34 @@
   },
   {
     "cname": "zed",
+    "name": "②僵尸逃跑01服",
+    "mode": "ze",
+    "host": "110.42.9.149",
+    "port": 27015
+  },
+  {
+    "cname": "zed",
+    "name": "②僵尸逃跑02服",
+    "mode": "ze",
+    "host": "110.42.9.149",
+    "port": 27016
+  },
+  {
+    "cname": "zed",
+    "name": "②僵尸逃跑03服",
+    "mode": "ze",
+    "host": "110.42.9.181",
+    "port": 27015
+  },
+  {
+    "cname": "zed",
+    "name": "②僵尸逃跑04服",
+    "mode": "ze",
+    "host": "110.42.9.181",
+    "port": 27016
+  },
+  {
+    "cname": "zed",
     "name": "僵尸逃跑02服",
     "mode": "ze",
     "host": "cs2.zombieden.cn",
@@ -590,14 +618,14 @@
   {
     "cname": "exg",
     "name": "②僵尸感染01服",
-    "mode": "ze",
+    "mode": "zm",
     "host": "202.189.6.135",
     "port": 31030
   },
   {
     "cname": "exg",
     "name": "②僵尸感染02服",
-    "mode": "ze",
+    "mode": "zm",
     "host": "202.189.6.135",
     "port": 31035
   },
